@@ -13,10 +13,12 @@
 
     <body>
         <h1>BeatMaker</h1>
+        <!-- The main sequencer for the app -->
         <div class="sequencer">
             <div class="kick-track">
                 <div class="controls">
                     <h2>Kick</h2>
+                    <!-- The main controls for row 1 -->
                     <button data-track="0" class="mute kick-volume">
                         <i class="fas fa-volume-mute"></i>
                     </button>
@@ -26,6 +28,7 @@
                         <option value="./sounds/kick-heavy.wav">Kick Heavy</option>
                     </select>
                 </div>
+                <!-- The pads for row 1 -->
                 <div class="kick">
                     <div class="pad kick-pad b0"></div>
                     <div class="pad kick-pad b1"></div>
@@ -40,6 +43,7 @@
             <div class="snare-track">
                 <div class="controls">
                     <h2>Snare</h2>
+                    <!-- The main controls for row 2 -->
                     <button data-track="1" class="mute snare-volume">
                         <i class="fas fa-volume-mute"></i>
                     </button>
@@ -49,6 +53,7 @@
                         <option value="./sounds/snare-vinyl02.wav">Snare Vinyl</option>
                     </select>
                 </div>
+                <!-- The pads for row 2 -->
                 <div class="snare">
                     <div class="pad snare-pad b0"></div>
                     <div class="pad snare-pad b1"></div>
@@ -63,6 +68,7 @@
             <div class="hihat-track">
                 <div class="controls">
                     <h2>Hihat</h2>
+                    <!-- The main controls for row 3 -->
                     <button data-track="2" class="mute hihat-volume">
                         <i class="fas fa-volume-mute"></i>
                     </button>
@@ -71,6 +77,7 @@
                         <option value="./sounds/hihat-808.wav">808 Hihat</option>
                     </select>
                 </div>
+                <!-- The pads for row 3 -->
                 <div class="hihat">
                     <div class="pad hihat-pad b0"></div>
                     <div class="pad hihat-pad b1"></div>
@@ -88,15 +95,10 @@
                 <p>Tempo: <span class="tempo-nr">150</span> </p>
             </div>
         </div>
+        <!-- Default audio -->
         <audio class="kick-sound" src="./sounds/kick-classic.wav"></audio>
         <audio class="snare-sound" src="./sounds/snare-acoustic01.wav"></audio>
         <audio class="hihat-sound" src="./sounds/hihat-acoustic01.wav"></audio>
-
-
-
-
-
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
             integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="
             crossorigin="anonymous"></script>
