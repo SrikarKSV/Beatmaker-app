@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+	background: linear-gradient(120deg, rgb(197, 114, 197), rgb(133, 16, 187));
+	color: #ffffff;
+	min-height: 93vh;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 3rem;
+	font-family: 'Just Me Again Down Here', cursive;
+	font-size: 3rem;
+	font-weight: 100;
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	width: 5rem;
+}
+
+svg,
+i {
+	pointer-events: none;
+}
+button {
+	padding: 0.5rem;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+select {
+	width: 8rem;
+	padding: 0 0.1rem;
+	font-family: 'Poppins', sans-serif;
+}
+
+.sequencer {
+	margin-top: 1rem;
+}
+
+.kick-track,
+.snare-track,
+.hihat-track {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.kick,
+.snare,
+.hihat {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.controls {
+	display: flex;
+	width: 20rem;
+	justify-content: space-between;
+	margin-right: 3rem;
+}
+
+.pad {
+	border-radius: 0.3rem;
+	cursor: pointer;
+	width: 5rem;
+	height: 5rem;
+	margin: 1rem;
+	transition: all 0.3s ease;
+}
+
+.kick-pad {
+	background-color: #b4db74;
+}
+
+.kick-pad.active {
+	background-color: #1ec52c;
+}
+
+.snare-pad {
+	background-color: #feba67;
+}
+.snare-pad.active {
+	background-color: #f08d14;
+}
+
+.hihat-pad {
+	background-color: #7ca9c4;
+}
+.hihat-pad.active {
+	background-color: #228fd3;
+}
+.play {
+	padding: 0.5rem 2rem;
+	font-size: 1rem;
+	background: rgba(255, 0, 255, 0.671);
+	color: white;
+	border: none;
+	border-radius: 0.3rem;
+	cursor: pointer;
+	margin-top: 2.5rem;
+	font-family: 'Poppins', sans-serif;
+	outline: none;
+}
+
+.scale {
+	transform: scale(1.2);
+}
+
+.mute.active {
+	background-color: #46463f;
+	color: white;
+}
+
+.tempo {
+	margin-top: 2rem;
+}
+
+#tempo-slider {
+	appearance: none;
+	background-color: #46463f;
+	border-radius: 2rem;
+	width: 30rem;
+	outline: none;
+}
+
+p {
+	margin-top: 1rem;
+}
