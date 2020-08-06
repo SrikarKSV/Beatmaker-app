@@ -1,5 +1,7 @@
-# Created Beatmaker app
+# Beatmaker app
 Used Object Oriented Programming when creating the app, learnt alot.
+
+Check out the app yourslef!: [Beatmaker](https://beatsmix.netlify.app)
 
 ![Screenshot of the app](https://i.imgur.com/ZZLFERj.png)
 
